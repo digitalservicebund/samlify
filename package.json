@@ -39,7 +39,7 @@
     "pako": "^1.0.10",
     "uuid": "^8.3.2",
     "xml": "^1.0.1",
-    "xml-crypto": "github:digitalservicebund/xml-crypto#build",
+    "xml-crypto": "github:digitalservicebund/xml-crypto#1d02080b4f4b37bf72923c8ca38ab828039f9101",
     "xml-escape": "^1.1.0",
     "xpath": "^0.0.32"
   },

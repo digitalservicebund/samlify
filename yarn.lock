@@ -2534,9 +2534,9 @@ write-file-atomic@^4.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-"xml-crypto@github:digitalservicebund/xml-crypto#build":
-  version "6.0.0"
-  resolved "https://codeload.github.com/digitalservicebund/xml-crypto/tar.gz/175c8a68083825e9c4d4eedded2f4de68c1abe94"
+"xml-crypto@github:digitalservicebund/xml-crypto#1d02080b4f4b37bf72923c8ca38ab828039f9101":
+  version "6.1.2"
+  resolved "https://codeload.github.com/digitalservicebund/xml-crypto/tar.gz/1d02080b4f4b37bf72923c8ca38ab828039f9101"
   dependencies:
     "@xmldom/is-dom-node" "^1.0.1"
     "@xmldom/xmldom" "^0.8.10"
