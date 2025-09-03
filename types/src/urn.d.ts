@@ -134,6 +134,7 @@ declare const algorithms: {
     signature: {
         RSA_SHA1: string;
         RSA_SHA256: string;
+        RSA_SHA256_MFG1: string;
         RSA_SHA512: string;
     };
     encryption: {
@@ -151,6 +152,7 @@ declare const algorithms: {
     digest: {
         'http://www.w3.org/2000/09/xmldsig#rsa-sha1': string;
         'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256': string;
+        'http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1': string;
         'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512': string;
     };
 };

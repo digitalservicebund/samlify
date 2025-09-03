@@ -147,6 +147,7 @@ var algorithms = {
     signature: {
         RSA_SHA1: 'http://www.w3.org/2000/09/xmldsig#rsa-sha1',
         RSA_SHA256: 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256',
+        RSA_SHA256_MFG1: 'http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1',
         RSA_SHA512: 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512',
     },
     encryption: {
@@ -164,6 +165,7 @@ var algorithms = {
     digest: {
         'http://www.w3.org/2000/09/xmldsig#rsa-sha1': 'http://www.w3.org/2000/09/xmldsig#sha1',
         'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256': 'http://www.w3.org/2001/04/xmlenc#sha256',
+        'http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1': 'http://www.w3.org/2001/04/xmlenc#sha256',
         'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512': 'http://www.w3.org/2001/04/xmlenc#sha512', // support hashing algorithm sha512 in xml-crypto after 0.8.0
     },
 };
